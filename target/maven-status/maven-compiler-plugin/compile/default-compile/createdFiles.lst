@@ -3,8 +3,10 @@ com\mycompany\java3\p2_swing\JTextFieldDemo$2.class
 com\mycompany\java3\p2_swing\JTextFieldDemo.class
 com\mycompany\java3\p1_swing\JLabelDemo.class
 com\mycompany\java3\p2_swing\JTableDemo.class
+com\mycompany\java3\p5_jdbc_sqlServer\DatabaseConnectionManager_SQLServer.class
 com\mycompany\java3\p2_swing\JComboBoxDemo.class
 com\mycompany\java3\p5_jdbc_sqlServer\SQLDatabaseConnection.class
+com\mycompany\java3\p5_jdbc_sqlServer\NewMain.class
 com\mycompany\java3\p1_swing\JButtonDemo.class
 com\mycompany\java3\p1_swing\FlowLayoutDemo.class
 com\mycompany\java3\p2_swing\JComboBoxDemo$3.class
