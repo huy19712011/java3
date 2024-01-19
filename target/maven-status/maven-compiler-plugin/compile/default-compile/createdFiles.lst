@@ -5,6 +5,7 @@ com\mycompany\java3\p1_swing\JLabelDemo.class
 com\mycompany\java3\p2_swing\JTableDemo.class
 com\mycompany\java3\p5_jdbc_sqlServer\DatabaseConnectionManager_SQLServer.class
 com\mycompany\java3\p2_swing\JComboBoxDemo.class
+com\mycompany\java3\p5_jdbc_sqlServer\statement\InsertingRecordDemo.class
 com\mycompany\java3\p5_jdbc_sqlServer\SQLDatabaseConnection.class
 com\mycompany\java3\p5_jdbc_sqlServer\NewMain.class
 com\mycompany\java3\p1_swing\JButtonDemo.class

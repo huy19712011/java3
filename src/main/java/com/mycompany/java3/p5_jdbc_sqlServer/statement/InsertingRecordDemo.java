@@ -5,13 +5,10 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
-public class CreateTableDemo {
+public class InsertingRecordDemo {
 
     public static void main(String[] args) {
-
         DatabaseConnectionManager_SQLServer dcm
                 = new DatabaseConnectionManager_SQLServer("test1", "sa", "123456");
 
@@ -25,22 +22,13 @@ public class CreateTableDemo {
 
             statement = connection.createStatement();
 
-            String sql = "CREATE TABLE employee("
-                    + "Id INT NOT NULL,"
-                    + "Name NVARCHAR(30) NOT NULL,"
-                    + "Salary DECIMAL NOT NULL,"
-                    + "PRIMARY KEY (Id));";
+            String sql = """
+                            INSERT INTO employee(Id, Name, Salary)
+                            VALUES(1, 'John', 50000);
+                          """;
 
-            String sql2 = """
-                            CREATE TABLE employee(
-                               Id INT NOT NULL,
-                               Name NVARCHAR(30) NOT NULL,
-                               Salary DECIMAL NOT NULL,
-                               PRIMARY KEY (ID)
-                            );
-                         """;
-
-            statement.execute(sql2);
+//            statement.execute(sql);
+            statement.executeUpdate(sql);
 
             System.out.println("done...");
 
@@ -70,5 +58,4 @@ public class CreateTableDemo {
 
         }
     }
-
 }
